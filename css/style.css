@@ -1,33 +1,36 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   background: url('https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg');
   padding: 50px 0;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-#title, #description{
+#title,
+#description {
   padding-bottom: 15px;
   text-align: center;
   color: rgb(27, 13, 59);
 }
 
-#survey-form{
+#survey-form {
   max-width: 600px;
   margin: auto;
   padding: 30px;
-  background-color: rgba(23, 23, 56, .8);
+  background-color: rgba(23, 23, 56, 0.8);
   font-size: 20;
   border-radius: 5px;
 }
 
 input:not([type='checkbox']):not([type='radio']),
-select, textarea, button{
+select,
+textarea,
+button {
   display: block;
   width: 100%;
   padding: 10px 15px;
@@ -36,25 +39,25 @@ select, textarea, button{
   border: none;
 }
 
-span{
+span {
   display: inline-block;
   margin-left: 15px;
   margin-bottom: 15px;
 }
 
-label{
+label {
   display: inline-block;
   margin-bottom: 10px;
 }
 
-#submit{
+#submit {
   background-color: greenyellow;
   color: white;
   font-weight: bold;
 }
 
 @media screen and (max-width: 600px) {
-    #survey-form{
-      margin: 20px;
-    }
+  #survey-form {
+    margin: 20px;
+  }
 }
